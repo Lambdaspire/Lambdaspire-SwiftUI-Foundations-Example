@@ -27,9 +27,12 @@ struct ManualExampleContent : View {
     
     var body: some View {
         Button {
-            vm.countAs()
+            vm.fetch()
         } label: {
-            Text("#A's: \(vm.count)")
+            VStack {
+                Text(vm.data)
+                Text("There are \(vm.count) A's in the data. WOW!")
+            }
         }
     }
 }

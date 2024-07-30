@@ -6,14 +6,19 @@ import LambdaspireSwiftUIFoundations
 
 @ViewWithViewModel
 struct AutoExampleScreen {
+    
+    @State var showModal: Bool = false
+    
     var content: some View {
         NavigationStack {
             List {
-                ForEach(vm.data, id: \.self) { d in
-                    Text(d)
+                Section {
+                    ForEach(vm.data, id: \.self) { d in
+                        Text(d)
+                    }
                 }
             }
-            .navigationTitle("Data")
+            .welcomeUserNavTitle()
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button {
@@ -22,6 +27,25 @@ struct AutoExampleScreen {
                         Text("Fetch")
                     }
                 }
+                
+                ToolbarItem(placement: .secondaryAction) {
+                    Button {
+                        showModal = true
+                    } label: {
+                        Text("Modal Me")
+                    }
+                }
+                
+                ToolbarItem(placement: .cancellationAction) {
+                    Button {
+                        vm.signOut()
+                    } label: {
+                        Text("Sign Out")
+                    }
+                }
+            }
+            .sheet(isPresented: $showModal) {
+                AutoExampleScreen()
             }
         }
     }

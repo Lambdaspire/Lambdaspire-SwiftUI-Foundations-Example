@@ -1,4 +1,5 @@
 
+import Foundation
 import Combine
 import LambdaspireAbstractions
 import LambdaspireDependencyResolution
@@ -10,8 +11,13 @@ class DataContext : ObservableObject {
     
     private let api: ApiService
     
-    init(api: ApiService) {
+    private let userContext: UserContext
+    
+    init(api: ApiService, userContext: UserContext) {
         self.api = api
+        self.userContext = userContext
+        
+        clearHistoryWhenUserSignsOut()
     }
     
     func getSomeData() {
@@ -19,5 +25,21 @@ class DataContext : ObservableObject {
             guard let newData = try? await api.getData() else { return }
             history.append(newData)
         }
+    }
+    
+    private func clearHistoryWhenUserSignsOut() {
+        userContext
+            .$user
+            .dropFirst()
+            .map {
+                switch $0 {
+                case .loaded(_): return true
+                default: return false
+                }
+            }
+            .removeDuplicates()
+            .map { _ in [] }
+            .receive(on: DispatchQueue.main)
+            .assign(to: &$history)
     }
 }
