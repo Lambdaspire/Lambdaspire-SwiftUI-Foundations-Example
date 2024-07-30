@@ -21,7 +21,7 @@ struct LambdaspireSwiftUIFoundationsExampleApp: App {
                 
                 ManualExampleScreen()
                     .tabItem {
-                        Label("Manual", systemImage: "hand.fill")
+                        Label("Manual", systemImage: "hand.raised.fill")
                     }
             }
             .resolving(from: container)
