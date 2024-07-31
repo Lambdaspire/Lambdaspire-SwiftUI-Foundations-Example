@@ -36,3 +36,8 @@ struct ManualExampleContent : View {
         }
     }
 }
+
+#Preview {
+    ManualExampleScreen()
+        .withStaticPreviewContainer()
+}

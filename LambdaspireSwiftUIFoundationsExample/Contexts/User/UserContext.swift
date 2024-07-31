@@ -11,6 +11,10 @@ class UserContext : ObservableObject {
     
     private let auth: AuthService
     
+    init(auth: AuthService) {
+        self.auth = auth
+    }
+    
     func signIn() {
         
         user = .loading

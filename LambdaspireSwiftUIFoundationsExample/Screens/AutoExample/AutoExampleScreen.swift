@@ -50,3 +50,15 @@ struct AutoExampleScreen {
         }
     }
 }
+
+#Preview {
+    AutoExampleScreen()
+        .previewContainer { b in
+            b.singleton(UserContext.self)
+            b.singleton(DataContext.self)
+            b.transient(ApiService.self, assigned(MockApiService.self))
+            b.transient(AuthService.self, assigned(MockAuthService.self))
+        } after: { c in
+            c.resolve(UserContext.self).signIn()
+        }
+}
