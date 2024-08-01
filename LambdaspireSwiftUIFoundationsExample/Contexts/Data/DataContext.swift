@@ -31,12 +31,7 @@ class DataContext : ObservableObject {
         userContext
             .$user
             .dropFirst()
-            .map {
-                switch $0 {
-                case .loaded(_): return true
-                default: return false
-                }
-            }
+            .map(\.isLoaded)
             .removeDuplicates()
             .map { _ in [] }
             .receive(on: DispatchQueue.main)

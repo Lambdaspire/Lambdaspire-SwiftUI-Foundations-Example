@@ -9,8 +9,8 @@ final class AutoExampleScreenViewModel {
     
     @Published private(set) var data: [String] = []
     
-    private(set) var dataConext: DataContext!
-    private(set) var userContext: UserContext!
+    private var dataConext: DataContext!
+    private var userContext: UserContext!
     
     func fetch() {
         dataConext.getSomeData()

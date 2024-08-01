@@ -16,9 +16,7 @@ class UserContext : ObservableObject {
     }
     
     func signIn() {
-        
         user = .loading
-        
         Task {
             do {
                 user = .loaded(try await auth.signIn())
@@ -29,9 +27,7 @@ class UserContext : ObservableObject {
     }
     
     func signOut() {
-        
         user = .loading
-        
         Task {
             do {
                 try await auth.signOut()
@@ -52,4 +48,18 @@ enum Loadable<T> {
     case loading
     case loaded(T)
     case error(Error)
+}
+
+extension Loadable {
+    
+    var isLoaded: Bool {
+        whenLoaded { _ in true } else: { false }
+    }
+    
+    func whenLoaded<R>(_ fn: (T) -> R, else efn: () -> R) -> R {
+        if case let .loaded(t) = self {
+            return fn(t)
+        }
+        return efn()
+    }
 }

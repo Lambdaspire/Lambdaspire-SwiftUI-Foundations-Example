@@ -33,12 +33,7 @@ final class RootViewViewModel {
     
     private var userContext: UserContext!
     
-    var authenticated: Bool {
-        switch user {
-        case .loaded(_): return true
-        default: return false
-        }
-    }
+    var authenticated: Bool { user.isLoaded }
     
     init(userContext: UserContext!) {
         self.userContext = userContext

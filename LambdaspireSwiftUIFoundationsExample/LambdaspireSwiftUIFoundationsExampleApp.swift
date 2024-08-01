@@ -7,12 +7,12 @@ import SwiftUI
 @main
 struct LambdaspireSwiftUIFoundationsExampleApp: App {
     
-    private let container: Container = getAppContainer()
+    private let rootScope: DependencyResolutionScope = getAppContainer()
     
     var body: some Scene {
         WindowGroup {
             RootView()
-                .resolving(from: container)
+                .resolving(from: rootScope)
         }
     }
 }

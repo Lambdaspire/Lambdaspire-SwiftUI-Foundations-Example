@@ -23,19 +23,13 @@ struct _WelcomeUserNavTitle : ViewModifier {
     
     @ObservedObject var userContext: UserContext
     
-    var user: User? {
-        switch userContext.user {
-        case .loaded(let u): return u
-        default: return nil
-        }
-    }
-    
     func body(content: Content) -> some View {
-        if let user {
-            content.navigationTitle("Welcome, \(user.name)")
-        } else {
-            content.navigationTitle("Welcome")
-        }
+        content.navigationTitle(
+            userContext.user.whenLoaded {
+                "Welcome, \($0.name)"
+            } else: {
+                "Welcome"
+            })
     }
 }
 

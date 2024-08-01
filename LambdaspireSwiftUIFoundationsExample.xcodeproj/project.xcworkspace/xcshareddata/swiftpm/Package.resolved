@@ -1,13 +1,13 @@
 {
-  "originHash" : "2c6d43b7873b2c600b29fdbaf6749e23d485172e0671334912589e550e4d589e",
+  "originHash" : "000b85d3f4558d17aadd63ef656f9eb5f56f8dcf5bebaa1f7b852e8838f76521",
   "pins" : [
     {
       "identity" : "lambdaspire-swift-abstractions",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lambdaspire/Lambdaspire-Swift-Abstractions",
       "state" : {
-        "branch" : "v2",
-        "revision" : "b5d8bf41df8ea16866f6a5e9a015cca259b87fc9"
+        "revision" : "b5d8bf41df8ea16866f6a5e9a015cca259b87fc9",
+        "version" : "2.0.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lambdaspire/Lambdaspire-Swift-DependencyResolution",
       "state" : {
-        "branch" : "wip-v2",
-        "revision" : "62a9cebe89163fd23930212bfeb636fa48b228c1"
+        "revision" : "fa0b3f338ebd8ed6b3152d88c144978a8dead823",
+        "version" : "2.0.0"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lambdaspire/Lambdaspire-SwiftUI-Foundations",
       "state" : {
-        "branch" : "main",
-        "revision" : "9b47395350d83501c81fa001385cc30a9af76dd2"
+        "revision" : "0f530a9d90c00084ba2332d6da75d39900303269",
+        "version" : "0.1.0"
       }
     },
     {
