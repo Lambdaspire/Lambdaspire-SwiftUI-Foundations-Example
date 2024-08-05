@@ -11,7 +11,10 @@ struct ManualExampleScreen : View {
     
     var body: some View {
         if let vm {
-            ManualExampleContent(vm: vm)
+            NavigationStack {
+                ManualExampleContent(vm: vm)
+                    .welcomeUserNavTitle()
+            }
         } else {
             ProgressView()
                 .task {

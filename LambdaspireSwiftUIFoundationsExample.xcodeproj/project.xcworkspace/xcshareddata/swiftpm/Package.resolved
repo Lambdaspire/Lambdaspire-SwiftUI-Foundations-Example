@@ -1,5 +1,5 @@
 {
-  "originHash" : "000b85d3f4558d17aadd63ef656f9eb5f56f8dcf5bebaa1f7b852e8838f76521",
+  "originHash" : "2c6d43b7873b2c600b29fdbaf6749e23d485172e0671334912589e550e4d589e",
   "pins" : [
     {
       "identity" : "lambdaspire-swift-abstractions",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lambdaspire/Lambdaspire-SwiftUI-Foundations",
       "state" : {
-        "revision" : "0f530a9d90c00084ba2332d6da75d39900303269",
-        "version" : "0.1.0"
+        "revision" : "9843d9abb4f0f590f9b09ecde77ec0c6d6660e65",
+        "version" : "0.1.1"
       }
     },
     {
