@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C61732D2C5AFA5D0018160B /* LambdaspireSwiftUIFoundations in Frameworks */ = {isa = PBXBuildFile; productRef = 7C61732C2C5AFA5D0018160B /* LambdaspireSwiftUIFoundations */; };
+		7C6173302C5B084F0018160B /* LambdaspireDependencyResolution in Frameworks */ = {isa = PBXBuildFile; productRef = 7C61732F2C5B084F0018160B /* LambdaspireDependencyResolution */; };
+		7CB1F7042C59B1280078DA0B /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1F7032C59B1280078DA0B /* PreviewContainer.swift */; };
+		7CCB4CFB2C5874C400780C81 /* LambdaspireSwiftUIFoundationsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4CFA2C5874C400780C81 /* LambdaspireSwiftUIFoundationsExampleApp.swift */; };
+		7CCB4CFF2C5874C500780C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB4CFE2C5874C500780C81 /* Assets.xcassets */; };
+		7CCB4D032C5874C500780C81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB4D022C5874C500780C81 /* Preview Assets.xcassets */; };
+		7CCB4D162C58825000780C81 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D152C58825000780C81 /* AppContainer.swift */; };
+		7CCB4D192C5882B200780C81 /* DataContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D182C5882B200780C81 /* DataContext.swift */; };
+		7CCB4D1C2C5882D800780C81 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D1B2C5882D800780C81 /* ApiService.swift */; };
+		7CCB4D1E2C5882E000780C81 /* RealApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D1D2C5882E000780C81 /* RealApiService.swift */; };
+		7CCB4D202C58830400780C81 /* AutoExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D1F2C58830400780C81 /* AutoExampleScreen.swift */; };
+		7CCB4D222C58832B00780C81 /* AutoExampleScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D212C58832B00780C81 /* AutoExampleScreenViewModel.swift */; };
+		7CCB4D242C5883FC00780C81 /* ManualExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D232C5883FC00780C81 /* ManualExampleScreen.swift */; };
+		7CCB4D262C58939B00780C81 /* ManualExampleScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D252C58939B00780C81 /* ManualExampleScreenViewModel.swift */; };
+		7CCB4D282C5893EC00780C81 /* MockApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D272C5893EC00780C81 /* MockApiService.swift */; };
+		7CCB4D2A2C589C0B00780C81 /* WelcomeUserNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D292C589C0B00780C81 /* WelcomeUserNavTitle.swift */; };
+		7CCB4D2D2C589EE800780C81 /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D2C2C589EE800780C81 /* UserContext.swift */; };
+		7CCB4D302C589F7C00780C81 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D2F2C589F7C00780C81 /* AuthService.swift */; };
+		7CCB4D322C589F9600780C81 /* RealAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D312C589F9600780C81 /* RealAuthService.swift */; };
+		7CCB4D342C589FDC00780C81 /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D332C589FDC00780C81 /* MockAuthService.swift */; };
+		7CCB4D362C58A0D500780C81 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D352C58A0D500780C81 /* RootView.swift */; };
+		7CCB4D392C58A2B200780C81 /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D382C58A2B200780C81 /* AuthScreen.swift */; };
+		7CCB4D3B2C58A3F400780C81 /* AuthScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB4D3A2C58A3F400780C81 /* AuthScreenViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CB1F7032C59B1280078DA0B /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		7CCB4CF72C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LambdaspireSwiftUIFoundationsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCB4CFA2C5874C400780C81 /* LambdaspireSwiftUIFoundationsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaspireSwiftUIFoundationsExampleApp.swift; sourceTree = "<group>"; };
+		7CCB4CFE2C5874C500780C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCB4D002C5874C500780C81 /* LambdaspireSwiftUIFoundationsExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LambdaspireSwiftUIFoundationsExample.entitlements; sourceTree = "<group>"; };
+		7CCB4D022C5874C500780C81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCB4D152C58825000780C81 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		7CCB4D182C5882B200780C81 /* DataContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContext.swift; sourceTree = "<group>"; };
+		7CCB4D1B2C5882D800780C81 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7CCB4D1D2C5882E000780C81 /* RealApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealApiService.swift; sourceTree = "<group>"; };
+		7CCB4D1F2C58830400780C81 /* AutoExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoExampleScreen.swift; sourceTree = "<group>"; };
+		7CCB4D212C58832B00780C81 /* AutoExampleScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoExampleScreenViewModel.swift; sourceTree = "<group>"; };
+		7CCB4D232C5883FC00780C81 /* ManualExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualExampleScreen.swift; sourceTree = "<group>"; };
+		7CCB4D252C58939B00780C81 /* ManualExampleScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualExampleScreenViewModel.swift; sourceTree = "<group>"; };
+		7CCB4D272C5893EC00780C81 /* MockApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiService.swift; sourceTree = "<group>"; };
+		7CCB4D292C589C0B00780C81 /* WelcomeUserNavTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUserNavTitle.swift; sourceTree = "<group>"; };
+		7CCB4D2C2C589EE800780C81 /* UserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		7CCB4D2F2C589F7C00780C81 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		7CCB4D312C589F9600780C81 /* RealAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAuthService.swift; sourceTree = "<group>"; };
+		7CCB4D332C589FDC00780C81 /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		7CCB4D352C58A0D500780C81 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7CCB4D382C58A2B200780C81 /* AuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
+		7CCB4D3A2C58A3F400780C81 /* AuthScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCB4CF42C5874C400780C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6173302C5B084F0018160B /* LambdaspireDependencyResolution in Frameworks */,
+				7C61732D2C5AFA5D0018160B /* LambdaspireSwiftUIFoundations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C292FF52C604D6800784C8E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D292C589C0B00780C81 /* WelcomeUserNavTitle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7CCB4CEE2C5874C400780C81 = {
+			isa = PBXGroup;
+			children = (
+				7CCB4CF92C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample */,
+				7CCB4CF82C5874C400780C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCB4CF82C5874C400780C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4CF72C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCB4CF92C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D142C58824200780C81 /* IoC */,
+				7CCB4D0F2C5881E900780C81 /* Services */,
+				7CCB4D102C5881EC00780C81 /* Contexts */,
+				7CCB4D112C5881F200780C81 /* Screens */,
+				7C292FF52C604D6800784C8E /* Components */,
+				7CCB4D352C58A0D500780C81 /* RootView.swift */,
+				7CCB4CFA2C5874C400780C81 /* LambdaspireSwiftUIFoundationsExampleApp.swift */,
+				7CCB4CFE2C5874C500780C81 /* Assets.xcassets */,
+				7CCB4D002C5874C500780C81 /* LambdaspireSwiftUIFoundationsExample.entitlements */,
+				7CCB4D012C5874C500780C81 /* Preview Content */,
+			);
+			path = LambdaspireSwiftUIFoundationsExample;
+			sourceTree = "<group>";
+		};
+		7CCB4D012C5874C500780C81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D022C5874C500780C81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CCB4D0F2C5881E900780C81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D2E2C589F7700780C81 /* Auth */,
+				7CCB4D1A2C5882CE00780C81 /* Api */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7CCB4D102C5881EC00780C81 /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D2B2C589ED700780C81 /* User */,
+				7CCB4D172C5882AC00780C81 /* Data */,
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		7CCB4D112C5881F200780C81 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D372C58A2AD00780C81 /* Auth */,
+				7CCB4D132C58820F00780C81 /* ManualExample */,
+				7CCB4D122C5881F700780C81 /* AutoExample */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7CCB4D122C5881F700780C81 /* AutoExample */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D1F2C58830400780C81 /* AutoExampleScreen.swift */,
+				7CCB4D212C58832B00780C81 /* AutoExampleScreenViewModel.swift */,
+			);
+			path = AutoExample;
+			sourceTree = "<group>";
+		};
+		7CCB4D132C58820F00780C81 /* ManualExample */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D232C5883FC00780C81 /* ManualExampleScreen.swift */,
+				7CCB4D252C58939B00780C81 /* ManualExampleScreenViewModel.swift */,
+			);
+			path = ManualExample;
+			sourceTree = "<group>";
+		};
+		7CCB4D142C58824200780C81 /* IoC */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D152C58825000780C81 /* AppContainer.swift */,
+				7CB1F7032C59B1280078DA0B /* PreviewContainer.swift */,
+			);
+			path = IoC;
+			sourceTree = "<group>";
+		};
+		7CCB4D172C5882AC00780C81 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D182C5882B200780C81 /* DataContext.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7CCB4D1A2C5882CE00780C81 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D1B2C5882D800780C81 /* ApiService.swift */,
+				7CCB4D1D2C5882E000780C81 /* RealApiService.swift */,
+				7CCB4D272C5893EC00780C81 /* MockApiService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		7CCB4D2B2C589ED700780C81 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D2C2C589EE800780C81 /* UserContext.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		7CCB4D2E2C589F7700780C81 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D2F2C589F7C00780C81 /* AuthService.swift */,
+				7CCB4D312C589F9600780C81 /* RealAuthService.swift */,
+				7CCB4D332C589FDC00780C81 /* MockAuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7CCB4D372C58A2AD00780C81 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4D382C58A2B200780C81 /* AuthScreen.swift */,
+				7CCB4D3A2C58A3F400780C81 /* AuthScreenViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCB4CF62C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCB4D062C5874C500780C81 /* Build configuration list for PBXNativeTarget "LambdaspireSwiftUIFoundationsExample" */;
+			buildPhases = (
+				7CCB4CF32C5874C400780C81 /* Sources */,
+				7CCB4CF42C5874C400780C81 /* Frameworks */,
+				7CCB4CF52C5874C400780C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LambdaspireSwiftUIFoundationsExample;
+			packageProductDependencies = (
+				7C61732C2C5AFA5D0018160B /* LambdaspireSwiftUIFoundations */,
+				7C61732F2C5B084F0018160B /* LambdaspireDependencyResolution */,
+			);
+			productName = LambdaspireSwiftUIFoundationsExample;
+			productReference = 7CCB4CF72C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCB4CEF2C5874C400780C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7CCB4CF62C5874C400780C81 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7CCB4CF22C5874C400780C81 /* Build configuration list for PBXProject "LambdaspireSwiftUIFoundationsExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCB4CEE2C5874C400780C81;
+			packageReferences = (
+				7C61732B2C5AFA5D0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-SwiftUI-Foundations" */,
+				7C61732E2C5B084F0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-Swift-DependencyResolution" */,
+			);
+			productRefGroup = 7CCB4CF82C5874C400780C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCB4CF62C5874C400780C81 /* LambdaspireSwiftUIFoundationsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCB4CF52C5874C400780C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB4D032C5874C500780C81 /* Preview Assets.xcassets in Resources */,
+				7CCB4CFF2C5874C500780C81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCB4CF32C5874C400780C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB1F7042C59B1280078DA0B /* PreviewContainer.swift in Sources */,
+				7CCB4D222C58832B00780C81 /* AutoExampleScreenViewModel.swift in Sources */,
+				7CCB4D1E2C5882E000780C81 /* RealApiService.swift in Sources */,
+				7CCB4D1C2C5882D800780C81 /* ApiService.swift in Sources */,
+				7CCB4D162C58825000780C81 /* AppContainer.swift in Sources */,
+				7CCB4D2D2C589EE800780C81 /* UserContext.swift in Sources */,
+				7CCB4D342C589FDC00780C81 /* MockAuthService.swift in Sources */,
+				7CCB4D2A2C589C0B00780C81 /* WelcomeUserNavTitle.swift in Sources */,
+				7CCB4D302C589F7C00780C81 /* AuthService.swift in Sources */,
+				7CCB4D3B2C58A3F400780C81 /* AuthScreenViewModel.swift in Sources */,
+				7CCB4D362C58A0D500780C81 /* RootView.swift in Sources */,
+				7CCB4D202C58830400780C81 /* AutoExampleScreen.swift in Sources */,
+				7CCB4D392C58A2B200780C81 /* AuthScreen.swift in Sources */,
+				7CCB4CFB2C5874C400780C81 /* LambdaspireSwiftUIFoundationsExampleApp.swift in Sources */,
+				7CCB4D192C5882B200780C81 /* DataContext.swift in Sources */,
+				7CCB4D262C58939B00780C81 /* ManualExampleScreenViewModel.swift in Sources */,
+				7CCB4D282C5893EC00780C81 /* MockApiService.swift in Sources */,
+				7CCB4D242C5883FC00780C81 /* ManualExampleScreen.swift in Sources */,
+				7CCB4D322C589F9600780C81 /* RealAuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CCB4D042C5874C500780C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCB4D052C5874C500780C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7CCB4D072C5874C500780C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LambdaspireSwiftUIFoundationsExample/LambdaspireSwiftUIFoundationsExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LambdaspireSwiftUIFoundationsExample/Preview Content\"";
+				DEVELOPMENT_TEAM = HP2CC68L79;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaspire.LambdaspireSwiftUIFoundationsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCB4D082C5874C500780C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LambdaspireSwiftUIFoundationsExample/LambdaspireSwiftUIFoundationsExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LambdaspireSwiftUIFoundationsExample/Preview Content\"";
+				DEVELOPMENT_TEAM = HP2CC68L79;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaspire.LambdaspireSwiftUIFoundationsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCB4CF22C5874C400780C81 /* Build configuration list for PBXProject "LambdaspireSwiftUIFoundationsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB4D042C5874C500780C81 /* Debug */,
+				7CCB4D052C5874C500780C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCB4D062C5874C500780C81 /* Build configuration list for PBXNativeTarget "LambdaspireSwiftUIFoundationsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB4D072C5874C500780C81 /* Debug */,
+				7CCB4D082C5874C500780C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C61732B2C5AFA5D0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-SwiftUI-Foundations" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lambdaspire/Lambdaspire-SwiftUI-Foundations";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.0;
+			};
+		};
+		7C61732E2C5B084F0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-Swift-DependencyResolution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lambdaspire/Lambdaspire-Swift-DependencyResolution";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C61732C2C5AFA5D0018160B /* LambdaspireSwiftUIFoundations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C61732B2C5AFA5D0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-SwiftUI-Foundations" */;
+			productName = LambdaspireSwiftUIFoundations;
+		};
+		7C61732F2C5B084F0018160B /* LambdaspireDependencyResolution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C61732E2C5B084F0018160B /* XCRemoteSwiftPackageReference "Lambdaspire-Swift-DependencyResolution" */;
+			productName = LambdaspireDependencyResolution;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7CCB4CEF2C5874C400780C81 /* Project object */;
+}
